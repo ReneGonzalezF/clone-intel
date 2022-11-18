@@ -1,0 +1,71 @@
+body{
+margin: 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.centerRow{
+    display: flex;
+    align-items: center;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.6);
+}
+
+.navLinks{
+}
+
+.navLogo__container{
+    width: 70px;
+    height: 70px;
+    background-color: #0068b5;
+    display: flex;
+    justify-content: center;
+    /* displayflex: Distribuye de modo flex, (ordenando de izquerda a derecha)
+    el justify ordena esa fila en el centro
+    align items ordena perpendicular a la direccion del flex*/
+}
+.navLogo{
+    width: 54px;
+    height: 100%;
+}
+
+.navLinks ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.navLinks li{
+    color: #0068b5;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+}
+
+.navTools{
+    gap: 20px;
+}
+
+.navTools span{
+    color: #0068b5;
+    
+}
+
+.navTools__search{
+    background: #f3f3f3;
+    height: 70px;
+    width: 300px;
+    padding-left: 10px; 
+    font-size: 0.85rem;
+    
+}
+.navTools__language{
+    color: #0068b5;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
